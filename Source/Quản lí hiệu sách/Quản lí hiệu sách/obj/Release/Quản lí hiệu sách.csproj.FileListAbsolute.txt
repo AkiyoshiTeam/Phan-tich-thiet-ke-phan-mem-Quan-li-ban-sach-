@@ -1,0 +1,41 @@
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\Quản lí hiệu sách.exe.config
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\Quản lí hiệu sách.exe
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\Quản lí hiệu sách.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\BUS.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\DTO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\DAO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\BUS.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\DTO.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\bin\Release\DAO.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản lí hiệu sách.csprojResolveAssemblyReference.cache
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmAbout.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmBaoCaoDoanhThu.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmBaoCaoNhapKho.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmBaoCaoTonKho.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmBieuDo.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmDangNhap.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmHoaDon.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmLoading.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmMain.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmNhaXuatBan.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmPhieuNhapSach.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmQLHoaDon.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmQLPhieuNhap.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmSuaSach.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmTacGia.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmTheLoaiSach.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmThemSach.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmTimKiemTheoNXB.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmTimKiemTheoTacGia.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmTimKiemTheoTenSach.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmTimKiemTheoTheLoai.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmXuatBaoCaoDoanhThu.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmXuatBaoCaoNhapKho.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmXuatHoaDon.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmXuatPhieuNhap.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.frmXuatThongKeTonKho.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản_lí_hiệu_sách.Properties.Resources.resources
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản lí hiệu sách.csproj.GenerateResource.Cache
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản lí hiệu sách.exe
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Release\Quản lí hiệu sách.pdb

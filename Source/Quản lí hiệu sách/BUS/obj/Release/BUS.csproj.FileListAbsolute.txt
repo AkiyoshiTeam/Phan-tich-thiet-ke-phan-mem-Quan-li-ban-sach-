@@ -1,0 +1,9 @@
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\bin\Release\BUS.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\bin\Release\BUS.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\bin\Release\DAO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\bin\Release\DTO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\bin\Release\DAO.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\bin\Release\DTO.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\obj\Release\BUS.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\BUS\obj\Release\BUS.pdb

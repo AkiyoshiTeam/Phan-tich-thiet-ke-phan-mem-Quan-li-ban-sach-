@@ -1,0 +1,5 @@
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DTO\bin\Release\DTO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DTO\bin\Release\DTO.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DTO\obj\Release\DTO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DTO\obj\Release\DTO.pdb

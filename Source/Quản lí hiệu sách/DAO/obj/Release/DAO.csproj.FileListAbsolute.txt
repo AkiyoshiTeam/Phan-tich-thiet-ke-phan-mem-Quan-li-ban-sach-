@@ -1,0 +1,7 @@
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DAO\bin\Release\DAO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DAO\bin\Release\DAO.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DAO\bin\Release\DTO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DAO\bin\Release\DTO.pdb
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DAO\obj\Release\DAO.dll
+D:\Đồ án\Quản lí hiệu sách\Source\Quản lí hiệu sách\DAO\obj\Release\DAO.pdb
