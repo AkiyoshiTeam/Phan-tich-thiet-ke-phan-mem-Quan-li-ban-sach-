@@ -118,3 +118,4 @@ D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\D
 D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Debug\Quản lý hiệu sách.csproj.GenerateResource.Cache
 D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Debug\Quản lí hiệu sách.exe
 D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Debug\Quản lí hiệu sách.pdb
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\Quản lí hiệu sách\obj\Debug\Quản lý hiệu sách.csproj.CoreCompileInputs.cache

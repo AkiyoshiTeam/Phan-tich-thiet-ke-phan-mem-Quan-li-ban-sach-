@@ -8,3 +8,9 @@ D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DTO\bin\Debu
 D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DTO\obj\Debug\DTO.dll
 D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DTO\obj\Debug\DTO.pdb
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DTO\bin\Debug\DTO.dll
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DTO\bin\Debug\DTO.pdb
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DTO\obj\Debug\DTO.dll
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DTO\obj\Debug\DTO.pdb

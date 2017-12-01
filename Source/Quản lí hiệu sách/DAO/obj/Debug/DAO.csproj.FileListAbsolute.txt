@@ -12,3 +12,11 @@ D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DAO\bin\Debu
 D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DAO\obj\Debug\DAO.dll
 D:\Đồ án\Quản lý hiệu sách\Source\Quản lí hiệu sách\DAO\obj\Debug\DAO.pdb
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\bin\Debug\DAO.dll
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\bin\Debug\DAO.pdb
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\bin\Debug\DTO.dll
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\bin\Debug\DTO.pdb
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\obj\Debug\DAO.dll
+D:\Đồ án PTTKPM\Source\Quản lí hiệu sách\DAO\obj\Debug\DAO.pdb
