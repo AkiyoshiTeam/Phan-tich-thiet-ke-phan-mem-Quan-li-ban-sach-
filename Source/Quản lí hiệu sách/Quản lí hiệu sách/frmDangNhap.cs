@@ -47,7 +47,7 @@ namespace Quản_lí_hiệu_sách
                         if (phanquyen == "Admin")
                         {
                             this.Hide();
-                            frmMain frm = new frmMain(hoten, username);
+                            frmMain frm = new frmMain(hoten, username, phanquyen);
                             frm.ShowDialog();
                             this.Show();
                             txtPassword.ResetText();
@@ -56,7 +56,7 @@ namespace Quản_lí_hiệu_sách
                         else if (phanquyen == "User ")
                         {
                             this.Hide();
-                            frmUser frm = new frmUser(hoten, username);
+                            frmUser frm = new frmUser(hoten, username, phanquyen);
                             frm.ShowDialog();
                             this.Show();
                             txtPassword.ResetText();

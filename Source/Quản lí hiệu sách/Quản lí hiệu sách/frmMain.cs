@@ -17,18 +17,19 @@ namespace Quản_lí_hiệu_sách
 {
     public partial class frmMain : Form
     {
-        string username = "";
+        string username = "", phanquyen = "";
         public frmMain()
         {
             InitializeComponent();
         }
-        public frmMain(string Hoten,string USN)
+        public frmMain(string Hoten,string USN,string PQ)
         {
             InitializeComponent();
             tlsHoten.Text = "Họ và tên: " + Hoten;
             tlsHoten.ForeColor = Color.Red;
             tlsDate.Text = DateTime.Now.ToShortDateString();
             username = USN;
+            phanquyen = PQ;
         }
         void LoadData()
         {
@@ -262,34 +263,38 @@ namespace Quản_lí_hiệu_sách
 
         private void theoTênSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoTenSach frm = new frmTimKiemTheoTenSach();
+            frmTimKiemTheoTenSach frm = new frmTimKiemTheoTenSach(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
+            LoadData();
         }
 
         private void theoThểLoạiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoTheLoai frm = new frmTimKiemTheoTheLoai();
+            frmTimKiemTheoTheLoai frm = new frmTimKiemTheoTheLoai(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
+            LoadData();
         }
 
         private void theoTácGiảToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoTacGia frm = new frmTimKiemTheoTacGia();
+            frmTimKiemTheoTacGia frm = new frmTimKiemTheoTacGia(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
+            LoadData();
         }
 
         private void theoNhàXuấtBảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoNXB frm = new frmTimKiemTheoNXB();
+            frmTimKiemTheoNXB frm = new frmTimKiemTheoNXB(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
+            LoadData();
         }
 
         private void doanhThuToolStripMenuItem_Click(object sender, EventArgs e)

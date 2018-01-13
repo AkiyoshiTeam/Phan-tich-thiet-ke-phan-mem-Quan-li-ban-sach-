@@ -11,18 +11,19 @@ namespace Quản_lí_hiệu_sách
 {
     public partial class frmUser : Form
     {
-        string username = "";
+        string username = "", phanquyen = "";
         public frmUser()
         {
             InitializeComponent();
         }
-        public frmUser(string Hoten, string USN)
+        public frmUser(string Hoten, string USN, string PQ)
         {
             InitializeComponent();
             tlsDate.Text = DateTime.Now.ToShortDateString();
             tlsHoten.Text = "Họ và tên: " + Hoten;
             tlsHoten.ForeColor = Color.Red;
             username = USN;
+            phanquyen = PQ;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -33,7 +34,7 @@ namespace Quản_lí_hiệu_sách
 
         private void theoTênSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoTenSach frm = new frmTimKiemTheoTenSach();
+            frmTimKiemTheoTenSach frm = new frmTimKiemTheoTenSach(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
@@ -41,7 +42,7 @@ namespace Quản_lí_hiệu_sách
 
         private void theoThểLoạiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoTheLoai frm = new frmTimKiemTheoTheLoai();
+            frmTimKiemTheoTheLoai frm = new frmTimKiemTheoTheLoai(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
@@ -49,7 +50,7 @@ namespace Quản_lí_hiệu_sách
 
         private void theoTácGiảToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoTacGia frm = new frmTimKiemTheoTacGia();
+            frmTimKiemTheoTacGia frm = new frmTimKiemTheoTacGia(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
@@ -57,7 +58,7 @@ namespace Quản_lí_hiệu_sách
 
         private void theoNhàXuấtBảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmTimKiemTheoNXB frm = new frmTimKiemTheoNXB();
+            frmTimKiemTheoNXB frm = new frmTimKiemTheoNXB(phanquyen);
             this.Hide();
             frm.ShowDialog();
             this.Show();
