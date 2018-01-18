@@ -32,10 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHoaDon));
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dgvDanhSach = new System.Windows.Forms.DataGridView();
-            this.colMaSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTenSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSLBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colGiaBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnThemSach = new System.Windows.Forms.Button();
@@ -60,6 +56,11 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.txtTongtien = new System.Windows.Forms.TextBox();
+            this.colMaSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTenSach = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSLBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colGiaBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSach)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -85,42 +86,16 @@
             this.colMaSach,
             this.colTenSach,
             this.colSLBan,
-            this.colGiaBan});
+            this.colGiaBan,
+            this.Column1});
             this.dgvDanhSach.Location = new System.Drawing.Point(10, 26);
             this.dgvDanhSach.MultiSelect = false;
             this.dgvDanhSach.Name = "dgvDanhSach";
             this.dgvDanhSach.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDanhSach.Size = new System.Drawing.Size(719, 249);
             this.dgvDanhSach.TabIndex = 3;
+            this.dgvDanhSach.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSach_CellClick);
             this.dgvDanhSach.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSach_CellEndEdit);
-            // 
-            // colMaSach
-            // 
-            this.colMaSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.colMaSach.HeaderText = "Mã Sách";
-            this.colMaSach.Name = "colMaSach";
-            this.colMaSach.ReadOnly = true;
-            this.colMaSach.Width = 89;
-            // 
-            // colTenSach
-            // 
-            this.colTenSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colTenSach.HeaderText = "Tên sách";
-            this.colTenSach.Name = "colTenSach";
-            this.colTenSach.ReadOnly = true;
-            // 
-            // colSLBan
-            // 
-            this.colSLBan.HeaderText = "Số lượng";
-            this.colSLBan.Name = "colSLBan";
-            // 
-            // colGiaBan
-            // 
-            dataGridViewCellStyle1.NullValue = null;
-            this.colGiaBan.DefaultCellStyle = dataGridViewCellStyle1;
-            this.colGiaBan.HeaderText = "Giá bán (VNĐ)";
-            this.colGiaBan.Name = "colGiaBan";
-            this.colGiaBan.Width = 140;
             // 
             // groupBox2
             // 
@@ -387,6 +362,42 @@
             this.txtTongtien.TabIndex = 16;
             this.txtTongtien.TabStop = false;
             // 
+            // colMaSach
+            // 
+            this.colMaSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.colMaSach.HeaderText = "Mã Sách";
+            this.colMaSach.Name = "colMaSach";
+            this.colMaSach.ReadOnly = true;
+            this.colMaSach.Width = 89;
+            // 
+            // colTenSach
+            // 
+            this.colTenSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTenSach.HeaderText = "Tên sách";
+            this.colTenSach.Name = "colTenSach";
+            this.colTenSach.ReadOnly = true;
+            // 
+            // colSLBan
+            // 
+            this.colSLBan.HeaderText = "Số lượng";
+            this.colSLBan.Name = "colSLBan";
+            // 
+            // colGiaBan
+            // 
+            dataGridViewCellStyle1.NullValue = null;
+            this.colGiaBan.DefaultCellStyle = dataGridViewCellStyle1;
+            this.colGiaBan.HeaderText = "Giá bán (VNĐ)";
+            this.colGiaBan.Name = "colGiaBan";
+            this.colGiaBan.Width = 140;
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.Column1.HeaderText = "Xóa";
+            this.Column1.Image = ((System.Drawing.Image)(resources.GetObject("Column1.Image")));
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 41;
+            // 
             // frmHoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -451,6 +462,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colTenSach;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSLBan;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGiaBan;
-
+        private System.Windows.Forms.DataGridViewImageColumn Column1;
     }
 }

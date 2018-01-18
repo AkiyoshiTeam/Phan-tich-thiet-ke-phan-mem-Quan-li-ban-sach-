@@ -40,6 +40,7 @@ namespace Quản_lí_hiệu_sách
             btnGhiPhieu.Enabled = true;
             btnLapPhieuMoi.Enabled = false;
             btnThemSach.Enabled = false;
+            cboNXB.Enabled = true;
             txtSoPN.Text = PhieuNhapBUS.GetIDPhieuNhap();
             txtMaSach.ResetText();
             txtTenSach.ResetText();
@@ -75,6 +76,7 @@ namespace Quản_lí_hiệu_sách
                 btnThemSach.Enabled = true;
                 btnGhiPhieu.Enabled = false;
                 btnIn.Enabled = true;
+                cboNXB.Enabled = false;
 
                 AutoCompleteStringCollection auto = new AutoCompleteStringCollection();
                 foreach(DataRow row in SachBUS.DanhSachTenSachTheoNXB(cboNXB.SelectedValue.ToString()).Rows)
@@ -123,7 +125,6 @@ namespace Quản_lí_hiệu_sách
         private void btnThemSach_Click(object sender, EventArgs e)
         {
             int j = 0;
-            long TongTien = 0;
             if (KiemTra() != "")
                 MessageBox.Show(string.Format("{0}", KiemTra()), "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             else
@@ -165,12 +166,7 @@ namespace Quản_lí_hiệu_sách
                     i++;
                 }
                 // Tính tổng tiền
-                for (int k = 0; k < dgvDanhSach.Rows.Count; k++)
-                {
-                    TongTien = TongTien + (Int64.Parse(dgvDanhSach.Rows[k].Cells[5].Value.ToString()) * Int64.Parse(dgvDanhSach.Rows[k].Cells[4].Value.ToString()));
-                }
-                txtTongtien.Text = String.Format("{0:0,0}", TongTien);
-                Tien = TongTien;
+                TongTien();
             }
         }
 
@@ -196,6 +192,7 @@ namespace Quản_lí_hiệu_sách
                     MessageBox.Show("Thêm chi tiết phiếu nhập thất bại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             btnIn.Enabled = false;
+            btnThemSach.Enabled = false;
             // Xuất ra cystal report
             frmXuatPhieuNhap frm = new frmXuatPhieuNhap(txtSoPN.Text);
             this.Hide();
@@ -224,7 +221,7 @@ namespace Quản_lí_hiệu_sách
             }
         }
 
-        private void dgvDanhSach_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        void TongTien()
         {
             long TongTien = 0;
             for (int k = 0; k < dgvDanhSach.Rows.Count; k++)
@@ -233,6 +230,21 @@ namespace Quản_lí_hiệu_sách
             }
             txtTongtien.Text = String.Format("{0:0,0}", TongTien);
             Tien = TongTien;
+        }
+
+        private void dgvDanhSach_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            TongTien();
+        }
+
+        private void dgvDanhSach_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 6)
+            {
+                dgvDanhSach.Rows.RemoveAt(e.RowIndex);
+                i--;
+                TongTien();
+            }
         }
     }
 }

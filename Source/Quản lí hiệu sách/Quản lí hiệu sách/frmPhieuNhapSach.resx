@@ -195,6 +195,23 @@
   <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Xóa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Xóa.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG4SURBVDhPfZFdKwRhFMenSJbZnd2wK3wNyg272Lak1a7E
+        SlHrJfLyMVy6cEF8AR8AidpacUGJi5XIS0TYlqTkwsVx/ueZmR3Ttqd+nXP+/3OenmdGc8bNkCd5N1JD
+        yKZkRzlPwhr4PVgh92A5TwLCbaqGvjeS9LEYop/NNN0Mq0GBPWjvCyGZQW8fguJ6qFaMwlwDFeaDnIOy
+        AP2KQQ1N0SCz8OSQy8Fa+lxqp/xMPeVnGWSzxpUB+jeHjvy13EPYlRvkBnR6ma5TTNXRK2PXrmzpuQHz
+        BtYzzhM6PaUD9FwC6BbozxPe0h/yNK7Tw5hBj2M+ehxHZpAdnMZLLCP2IkbyuM9H96NeE92B1XvppM9L
+        mDXXVEA46vXxr+N3pUzwG/G7kJ2wdsiz9iEosjEfXQ9W05ULaE5d1R6pszFDHZKJ+uk1VUFnMY0uk1WK
+        RJX00G2PNbeXiRokN9jvLh6S66+0B/ZY3+8qehdx5eU4Q//3jN1IcRB5NxKQAfHC/z1gL1sBYbszIOZO
+        WC2blnjQxOMZ93Ij08I0r7XqE1sdAVpv09PcBxk/YzCh1VZ9Eh5mMMs0aZoW/AP07r3zpWe81QAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
   <data name="btnThoat.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO

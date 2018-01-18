@@ -80,7 +80,6 @@ namespace Quản_lí_hiệu_sách
         private void btnThemSach_Click(object sender, EventArgs e)
         {
             int j = 0;
-            long TongTien = 0;
             if (txtMaSach.Text == "")
                 MessageBox.Show("Mã sách không được để trống.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             else if (txtTenSach.Text != "")
@@ -118,12 +117,7 @@ namespace Quản_lí_hiệu_sách
                     i++;
                 }
                 // Tính tổng tiền
-                for (int k = 0; k < dgvDanhSach.Rows.Count; k++)
-                {
-                    TongTien = TongTien + (Int64.Parse(dgvDanhSach.Rows[k].Cells[3].Value.ToString()) * Int64.Parse(dgvDanhSach.Rows[k].Cells[2].Value.ToString()));
-                }
-                txtTongtien.Text = String.Format("{0:0,0}", TongTien);
-                Tien = TongTien;
+                TongTien();
             }
         }
         private void btnInHoaDon_Click(object sender, EventArgs e)
@@ -149,6 +143,7 @@ namespace Quản_lí_hiệu_sách
                     MessageBox.Show("Thêm chi tiết hóa đơn thất bại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             btnInHoaDon.Enabled = false;
+            btnThemSach.Enabled = false;
             // Xuất ra Cystal report
             frmXuatHoaDon frm = new frmXuatHoaDon(txtSoHD.Text);
             this.Hide();
@@ -175,6 +170,11 @@ namespace Quản_lí_hiệu_sách
 
         private void dgvDanhSach_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
+            TongTien();
+        }
+
+        void TongTien()
+        {
             long TongTien = 0;
             for (int k = 0; k < dgvDanhSach.Rows.Count; k++)
             {
@@ -182,6 +182,16 @@ namespace Quản_lí_hiệu_sách
             }
             txtTongtien.Text = String.Format("{0:0,0}", TongTien);
             Tien = TongTien;
+        }
+
+        private void dgvDanhSach_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 4)
+            {
+                dgvDanhSach.Rows.RemoveAt(e.RowIndex);
+                i--;
+                TongTien();
+            }
         }
     }
 }
